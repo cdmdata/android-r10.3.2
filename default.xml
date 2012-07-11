@@ -3,7 +3,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="cdmgithub"
-           fetch="git://github.com/boundarydevices/" />
+           fetch="git://github.com/cdmdata/" />
   <remote  name="github"
            fetch="https://github.com/" />
   <default revision="gingerbread"
