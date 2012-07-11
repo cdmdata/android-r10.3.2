@@ -189,9 +189,9 @@
   <project path="system/netd" name="android_system_netd.git" remote="cdmgithub" />
   <project path="system/vold" name="android_system_vold.git" remote="cdmgithub" />
 
-  <project path="device/fsl" name="username/raf1hh" name="device_fsl.git" remote="cdmgithub-private" />
-  <project path="external/linux-firmware-imx" name="username/raf1hh" name="linux-firmware-imx.git" remote="cdmgithub-private" />
-  <project path="hardware/mx5x" name="username/raf1hh" name="hardware_mx5x.git" remote="cdmgithub-private" />
+  <project path="device/fsl" name="raf1hh/device_fsl.git" remote="cdmgithub-private" />
+  <project path="external/linux-firmware-imx" name="raf1hh/linux-firmware-imx.git" remote="cdmgithub-private" />
+  <project path="hardware/mx5x" name="raf1hh/hardware_mx5x.git" remote="cdmgithub-private" />
   <project path="kernel_imx" name="linux.git" remote="cdmgithub" revision="boundary-imx-android-r10.3.2" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08.git" remote="cdmgithub" revision="boundary20101115_updated_machtypes" />
 </manifest>
