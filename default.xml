@@ -2,9 +2,7 @@
 <manifest>
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <remote  name="boundary-linode"
-	   fetch="git://linode.boundarydevices.com/boundary-imx-android-r10.3.2/" />
-  <remote  name="boundary-github"
+  <remote  name="cdmgithub"
            fetch="git://github.com/boundarydevices/" />
   <remote  name="github"
            fetch="https://github.com/" />
@@ -147,49 +145,49 @@
 
   <project path="external/android_libnl" name="bcopeland/android_libnl.git" remote="github" revision="android" />
 
-  <project path="bionic" name="android_bionic.git" remote="boundary-github" />
-  <project path="build" name="android_build.git" remote="boundary-github" >
+  <project path="bionic" name="android_bionic.git" remote="cdmgithub" />
+  <project path="build" name="android_build.git" remote="cdmgithub" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="bootable/recovery" name="android_bootable_recovery.git" remote="boundary-github" />
-  <project path="external/alsa-lib" name="android_external_alsa-lib.git" remote="boundary-github" />
-  <project path="external/alsa-utils" name="android_external_alsa-utils.git" remote="boundary-github" />
-  <project path="external/bluetooth/bluez" name="android_external_bluez.git" remote="boundary-github" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd.git" remote="boundary-github" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs.git" remote="boundary-github" />
-  <project path="external/genext2fs" name="android_external_genext2fs.git" remote="boundary-github" />
-  <project path="external/hostapd-0.6.8" name="android_external_hostapd.git" remote="boundary-github" />
-  <project path="external/linux-lib" name="android_external_linux-lib.git" remote="boundary-github" />
-  <project path="external/mtd-utils" name="android_external_mtd-utils.git" remote="boundary-github" />
-  <project path="external/ppp" name="android_external_ppp.git" remote="boundary-github" />
-  <project path="external/sqlite" name="android_external_sqlite.git" remote="boundary-github" />
-  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6.git" remote="boundary-github" />
-  <project path="frameworks/base" name="android_frameworks_base.git" remote="boundary-github" />
-  <project path="hardware/alsa_sound" name="android_hardware_alsa_sound.git" remote="boundary-github" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware.git" remote="boundary-github" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy.git" remote="boundary-github" />
-  <project path="hardware/ril" name="android_hardware_ril.git" remote="boundary-github" />
-  <project path="hardware/wl1271-firmware" name="android-wl1271-firmware.git" remote="boundary-github" />
-  <project path="packages/apps/Camera" name="android_packages_apps_camera.git" remote="boundary-github" />
-  <project path="packages/apps/CertInstaller" name="android-packages-apps-certinstaller.git" remote="boundary-github" />
-  <project path="packages/apps/Gallery3D" name="android_packages_apps_Gallery3D.git" remote="boundary-github" />
-  <project path="packages/apps/Music" name="android_packages_apps_music.git" remote="boundary-github" />
-  <project path="packages/apps/Settings" name="android_packages_apps_settings.git" remote="boundary-github" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_soundrecorder.git" remote="boundary-github" />
-  <project path="packages/inputmethods/PinyinIME" name="android-packages-inputmethods-PinyinIME.git" remote="boundary-github" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_mediaprovider.git" remote="boundary-github" />
-  <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke.git" remote="boundary-github" />
-  <project path="prebuilt" name="android_prebuilt_imx.git" remote="boundary-github" />
-  <project path="system/core" name="android_system_core.git" remote="boundary-github" />
-  <project path="system/dispd" name="android_system_dispd.git" remote="boundary-github" />
-  <project path="system/extras" name="android-system-extras.git" remote="boundary-github" />
-  <project path="system/netd" name="android_system_netd.git" remote="boundary-github" />
-  <project path="system/vold" name="android_system_vold.git" remote="boundary-github" />
+  <project path="bootable/recovery" name="android_bootable_recovery.git" remote="cdmgithub" />
+  <project path="external/alsa-lib" name="android_external_alsa-lib.git" remote="cdmgithub" />
+  <project path="external/alsa-utils" name="android_external_alsa-utils.git" remote="cdmgithub" />
+  <project path="external/bluetooth/bluez" name="android_external_bluez.git" remote="cdmgithub" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd.git" remote="cdmgithub" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs.git" remote="cdmgithub" />
+  <project path="external/genext2fs" name="android_external_genext2fs.git" remote="cdmgithub" />
+  <project path="external/hostapd-0.6.8" name="android_external_hostapd.git" remote="cdmgithub" />
+  <project path="external/linux-lib" name="android_external_linux-lib.git" remote="cdmgithub" />
+  <project path="external/mtd-utils" name="android_external_mtd-utils.git" remote="cdmgithub" />
+  <project path="external/ppp" name="android_external_ppp.git" remote="cdmgithub" />
+  <project path="external/sqlite" name="android_external_sqlite.git" remote="cdmgithub" />
+  <project path="external/wpa_supplicant_6" name="android_external_wpa_supplicant_6.git" remote="cdmgithub" />
+  <project path="frameworks/base" name="android_frameworks_base.git" remote="cdmgithub" />
+  <project path="hardware/alsa_sound" name="android_hardware_alsa_sound.git" remote="cdmgithub" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware.git" remote="cdmgithub" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy.git" remote="cdmgithub" />
+  <project path="hardware/ril" name="android_hardware_ril.git" remote="cdmgithub" />
+  <project path="hardware/wl1271-firmware" name="android-wl1271-firmware.git" remote="cdmgithub" />
+  <project path="packages/apps/Camera" name="android_packages_apps_camera.git" remote="cdmgithub" />
+  <project path="packages/apps/CertInstaller" name="android-packages-apps-certinstaller.git" remote="cdmgithub" />
+  <project path="packages/apps/Gallery3D" name="android_packages_apps_Gallery3D.git" remote="cdmgithub" />
+  <project path="packages/apps/Music" name="android_packages_apps_music.git" remote="cdmgithub" />
+  <project path="packages/apps/Settings" name="android_packages_apps_settings.git" remote="cdmgithub" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_soundrecorder.git" remote="cdmgithub" />
+  <project path="packages/inputmethods/PinyinIME" name="android-packages-inputmethods-PinyinIME.git" remote="cdmgithub" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_mediaprovider.git" remote="cdmgithub" />
+  <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke.git" remote="cdmgithub" />
+  <project path="prebuilt" name="android_prebuilt_imx.git" remote="cdmgithub" />
+  <project path="system/core" name="android_system_core.git" remote="cdmgithub" />
+  <project path="system/dispd" name="android_system_dispd.git" remote="cdmgithub" />
+  <project path="system/extras" name="android-system-extras.git" remote="cdmgithub" />
+  <project path="system/netd" name="android_system_netd.git" remote="cdmgithub" />
+  <project path="system/vold" name="android_system_vold.git" remote="cdmgithub" />
 
-  <project path="device/fsl" name="device_fsl.git" remote="boundary-linode" />
-  <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="boundary-linode" />
-  <project path="hardware/mx5x" name="hardware_mx5x.git" remote="boundary-linode" />
-  <project path="kernel_imx" name="linux.git" remote="boundary-github" revision="boundary-imx-android-r10.3.2" />
-  <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08.git" remote="boundary-github" revision="boundary20101115_updated_machtypes" />
+  <project path="device/fsl" name="device_fsl.git" remote="cdmgithub" />
+  <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="cdmgithub" />
+  <project path="hardware/mx5x" name="hardware_mx5x.git" remote="cdmgithub" />
+  <project path="kernel_imx" name="linux.git" remote="cdmgithub" revision="boundary-imx-android-r10.3.2" />
+  <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08.git" remote="cdmgithub" revision="boundary20101115_updated_machtypes" />
 </manifest>
