@@ -2,15 +2,16 @@
 <manifest>
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
   <remote  name="cdmgithub"
-           fetch="git://github.com/cdmdata/"
-           push="ssh://git@github.com/cdmdata/" />
+           fetch="ssh://git@github.com/cdmdata/"
 
   <remote  name="cdmgithub-private"
            fetch="ssh://git@github.com/cdmdata/" />
 
   <remote  name="github"
            fetch="https://github.com/" />
+           
   <default revision="gingerbread"
            remote="aosp" />
 
