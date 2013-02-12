@@ -196,4 +196,6 @@
   <project path="hardware/mx5x" name="hardware_mx5x.git" remote="cdmgithub-private" />
   <project path="kernel_imx" name="linux.git" remote="cdmgithub" revision="boundary-imx-android-r10.3.2" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08.git" remote="cdmgithub" revision="boundary20101115_updated_machtypes" />
+  <project path="compat-wireless" name="compat-wireless-2011-08-08.git" remote="cdmgithub" />
+  <project path="build_utils" name="build_utils.git" remote="cdmgithub" />
 </manifest>
