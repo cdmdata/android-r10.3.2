@@ -113,6 +113,7 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="f8d780c897ff9ca20f83ce94a92ae05c79f9e2d3" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="5c85e48a713ec70ebce65ebf1a3622035992f8c3" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="1bd1a6e89c3f08f107c34427160f3e2de969e0cb" />
+  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="ec0e540fb20a31f77ca561bc4a872e817195627a" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="5ff420d285f09100c788fb0bb1e6d19e9e849cc0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="d556138cb2683212423edb884948d7410ef698e7" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="ea32625b6296585a0328886c33159d88e3a2c693" />
