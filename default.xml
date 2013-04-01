@@ -186,7 +186,7 @@
   <project path="system/extras" name="android-system-extras.git" remote="cdmgithub" />
   <project path="system/netd" name="android_system_netd.git" remote="cdmgithub" />
   <project path="system/vold" name="android_system_vold.git" remote="cdmgithub" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="ec0e540fb20a31f77ca561bc4a872e817195627a" remote="cdmgithub"  />
+  <project path="packages/apps/Contacts" name="Contacts.git" revision="ec0e540fb20a31f77ca561bc4a872e817195627a" remote="cdmgithub"  />
 
   <project path="device/fsl" name="device_fsl.git" remote="cdmgithub-private" />
   <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="cdmgithub-private" />
