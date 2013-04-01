@@ -113,12 +113,10 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" revision="f8d780c897ff9ca20f83ce94a92ae05c79f9e2d3" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" revision="5c85e48a713ec70ebce65ebf1a3622035992f8c3" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" revision="1bd1a6e89c3f08f107c34427160f3e2de969e0cb" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" revision="ec0e540fb20a31f77ca561bc4a872e817195627a" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" revision="5ff420d285f09100c788fb0bb1e6d19e9e849cc0" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="d556138cb2683212423edb884948d7410ef698e7" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="ea32625b6296585a0328886c33159d88e3a2c693" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="f470146b74d34c21e4d3526574e2bbd0e72a57f0" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" revision="3fd010a6fe457a59d2e983a348e63dc25e836852" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e1e63883f6938766484afeae3c4e36e6c29680dc" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="8f339bda6419b37d72e8761e1ce3dce729e20e42" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="6d2974c3f346511f96eba3370398123422e578fc" />
@@ -126,12 +124,10 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" revision="a853d2b914144dd1f2ff3f03170f67d74338815d" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" revision="f31b933a8aebf07e3feb512ac650c5691c8c5e0f" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" revision="e8b28b6f1cab74060ea3101b1eee1dfdb32c89e9" />
-  <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" revision="f075eb5cefb6357aa7562a6d156bda5383ac087d" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" revision="d2f267c7ed48dc77878299e12925bc3c39db5d37" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" revision="91b9c58675e5d1aa43b7243a38510ebb16e14b25" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" revision="13b6acf2174e8dc23f70def279c85d191c3fcbc1" />
   <project path="packages/experimental" name="platform/packages/experimental" revision="504fe3ddddf722e4315b382319970b0e435af27b" />
-  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" revision="fa8d2e9b9364aed481565b656f8cc38cb71e32ab" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="27ab9d1b806f03554d2abb50de26abe7bf234336" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="0234d298ecdffe3a10877d6edffe98e299713caa" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="959739d351af5d04e8c92f6b031f737348d4b139" />
@@ -181,7 +177,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_settings.git" remote="cdmgithub" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_download_provider.git" remote="cdmgithub" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_soundrecorder.git" remote="cdmgithub" />
-  <project path="packages/inputmethods/PinyinIME" name="android-packages-inputmethods-PinyinIME.git" remote="cdmgithub" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_mediaprovider.git" remote="cdmgithub" />
   <project path="packages/wallpapers/MagicSmoke" name="android_packages_wallpapers_MagicSmoke.git" remote="cdmgithub" />
   <project path="prebuilt" name="android_prebuilt_imx.git" remote="cdmgithub" />
