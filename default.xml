@@ -118,7 +118,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" revision="d556138cb2683212423edb884948d7410ef698e7" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" revision="ea32625b6296585a0328886c33159d88e3a2c693" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" revision="f470146b74d34c21e4d3526574e2bbd0e72a57f0" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" revision="e1e63883f6938766484afeae3c4e36e6c29680dc" />
+  
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="8f339bda6419b37d72e8761e1ce3dce729e20e42" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" revision="6d2974c3f346511f96eba3370398123422e578fc" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" revision="6e38c80b51bc2dbc6d74071f103bf8499295198e" />
@@ -186,7 +186,6 @@
   <project path="system/extras" name="android-system-extras.git" remote="cdmgithub" />
   <project path="system/netd" name="android_system_netd.git" remote="cdmgithub" />
   <project path="system/vold" name="android_system_vold.git" remote="cdmgithub" />
-  <project path="packages/apps/Contacts" name="Contacts.git" revision="ec0e540fb20a31f77ca561bc4a872e817195627a" remote="cdmgithub"  />
 
   <project path="device/fsl" name="device_fsl.git" remote="cdmgithub-private" />
   <project path="external/linux-firmware-imx" name="linux-firmware-imx.git" remote="cdmgithub-private" />
