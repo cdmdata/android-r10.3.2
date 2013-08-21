@@ -192,7 +192,9 @@
   <project path="hardware/mx5x" name="hardware_mx5x.git" remote="cdmgithub-private" />
   <project path="kernel_imx" name="linux.git" remote="cdmgithub" revision="boundary-imx-android-r10.3.2" />
   <project path="bootable/bootloader/uboot-imx" name="u-boot-2009-08.git" remote="cdmgithub" revision="boundary20101115_updated_machtypes" />
-  <project path="compat-wireless" name="compat-wireless-2011-08-08.git" remote="cdmgithub" revision="master" />
+  <project path="compat-wireless" name="compat-wireless-r5sp3.git" remote="cdmgithub" revision="master" />
+  <project path="compat-bluetooth" name="compat-bluetooth-r5sp3.git" remote="cdmgithub" revision="master" />
   <project path="build_utils" name="build_utils.git" remote="cdmgithub" revision="master" />
   <project path="cdm_utils" name="cdm_utils.git" remote="cdmgithub" revision="master" />
+
 </manifest>
